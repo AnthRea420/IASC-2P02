@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+li{
+    font-size: 24px;
+    list-style-type: none;
+}
+
+a{
+    color:blanchedalmond;
+    text-decoration:none;
+}
+A:hover{
+    color: aqua;
+    text-decoration: overline;
+}
+
+.assignment{
+    color:red;
+}
