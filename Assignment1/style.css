@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(3, 35, 122);
+
+
+}
+h1{
+    color: greenyellow;
+    font-size: 48;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    z-index: 1;
+
+
+
+
+}
+.webgl{
+    position: relative;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 2;
+
+
+}
+.essay{
+    color: white;
+    font-size:19px;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+.clickable{
+    color: greenyellow;
+    cursor: grab;
+}
+.clickable:hover{
+    color:aqua;
+}
