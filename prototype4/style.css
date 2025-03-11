@@ -1,0 +1,29 @@
+h1, h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #242321;
+}
+
+h1{
+    font-size: 48px;
+
+}
+
+h2{
+    font-size: 28px;
+
+}
+
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+.webgl {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    outline: none;
+    z-index: -1;
+}
