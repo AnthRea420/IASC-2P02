@@ -1,0 +1,17 @@
+h1, h2{
+    color: black;
+    font-size: 48;
+    text-align: center;
+}
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+
+
+}
+h2{
+    font-size: 36px;
+}
