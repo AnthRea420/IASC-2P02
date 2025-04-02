@@ -33,7 +33,7 @@ window.addEventListener('resize', () => {
 const canvas = document.querySelector('.webgl');
 // Scene
 const scene = new THREE.Scene();
-scene.background = new THREE.Color('light blue');
+scene.background = new THREE.Color('blue');
 // Camera
 const camera = new THREE.PerspectiveCamera(75, sizes.aspectRatio, 0.1, 100);
 scene.add(camera);
@@ -110,7 +110,7 @@ scene.add(group3);
 
 // UI Object for storing data
 const uiObj = {
-    sourceText: "Back to the Future is a 1985 science fiction film about Marty McFly, a teenager who is sent 30 years into the past in a time machine built by eccentric inventor Doc Brown. Marty meets his young parents and accidentally prevents them from meeting, threatening his existence. With the help of Doc Brown, Marty must ensure his parents fall in love, while also finding a way back to the future.",
+    sourceText: "Marty McFly has tp travel Back to the Future to make his parents fall in love to save his own existence",
 
     saveSourceText() {
         saveSourceText();
