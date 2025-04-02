@@ -118,7 +118,7 @@ const uiObj = {
 
     term1: {
         term: 'time-travel',
-        color: '#ff0000',
+        color: 'blue',
         diamater: 20,
         group: group1,
         nCubes: 200,
@@ -127,7 +127,7 @@ const uiObj = {
     },
     term2: {
         term: 'marty-mcfly',
-        color: '#0000ff',
+        color: 'red',
         diamater: 10,
         group: group2,
         nCubes: 100,
@@ -136,7 +136,7 @@ const uiObj = {
     },
     term3: {
         term: 'doc-brown',
-        color: '#00ff00',
+        color: 'green',
         diamater: 10,
         group: group3,
         nCubes: 100,
